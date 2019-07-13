@@ -1,0 +1,25 @@
+POST : localhost:8080/save
+Params : {
+	"amount" : 200,
+	"user_id" : "5cef9c203ca60a3627c5a007",
+	"cashback_deduction_percentage" : 50,
+	"cashback_add_to_wallet_percentage" : 10,
+	"cashback_amount" : 0
+	
+}
+
+POST : localhost:8080/wallet
+Params : {
+	"amount" : 1000,
+	"user_id" : "5cef9c203ca60a3627c5a811",
+	"cashback_deduction_percentage" : 50,
+	"cashback_add_to_wallet_percentage" : 10,
+	"cashback_amount" : 0,
+	"description" : "init amout",
+	"flag": true 
+}
+
+POST : localhost:8080/getwallet
+Params : {
+	"user_id" : "5cef9c203ca60a3627c5a007"
+}
